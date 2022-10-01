@@ -5,9 +5,18 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: rgb(73, 73, 73);
+}
+.first-header {
+  background-color: #becdf9;
+}
+h1,
+h2,
+h3 {
+  color: #5588f6;
 }
 h1 {
-  color: blue;
+  color: #7f54d0;
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
@@ -42,4 +51,12 @@ article header p {
 }
 .related {
   list-style: none;
+}
+aside {
+  border-top: 5px solid #2f60f3;
+  border-bottom: 5px solid #2f60f3;
+  background-color: #becdf9;
+}
+.author {
+  font-style: italic;
 }
