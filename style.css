@@ -60,3 +60,17 @@ aside {
 .author {
   font-style: italic;
 }
+a:link {
+  color: #ff0090;
+  text-decoration: none;
+}
+a:visited {
+  color: #ff0090;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: underline #800080;
+}
+a:active {
+  color: #800080;
+}
