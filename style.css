@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+article {
+  margin-bottom: 60px;
+}
 h1,
 h2,
 h3,
@@ -7,8 +14,13 @@ li {
   font-family: sans-serif;
   color: rgb(73, 73, 73);
 }
-.first-header {
+.main-header {
   background-color: #becdf9;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+.post-header {
+  margin-bottom: 40px;
 }
 h1,
 h2,
@@ -23,9 +35,12 @@ h1 {
 }
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 h4 {
   font-size: 20px;
@@ -35,9 +50,14 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
 }
 /* footer p {
   font-size: 16px;
@@ -56,6 +76,7 @@ aside {
   border-top: 5px solid #2f60f3;
   border-bottom: 5px solid #2f60f3;
   background-color: #becdf9;
+  padding: 50px 0;
 }
 .author {
   font-style: italic;
@@ -76,4 +97,9 @@ a:active {
 }
 nav {
   font-size: 18px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
