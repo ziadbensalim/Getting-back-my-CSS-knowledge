@@ -9,6 +9,14 @@
 article {
   margin-bottom: 60px;
 }
+nav a:link {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+nav a:link:last-child {
+  margin-right: 0;
+}
 h1,
 h2,
 h3,
