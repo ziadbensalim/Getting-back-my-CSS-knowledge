@@ -17,14 +17,11 @@ nav a:link {
 nav a:link:last-child {
   margin-right: 0;
 }
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
   font-family: sans-serif;
-  color: rgb(73, 73, 73);
+  color: #494949;
+  border-top: 10px solid #5588f6;
+  position: relative;
 }
 .main-header {
   background-color: #becdf9;
@@ -120,4 +117,12 @@ ul,
 ol {
   margin-left: 50px;
   margin-bottom: 20px;
+}
+button {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
 }
